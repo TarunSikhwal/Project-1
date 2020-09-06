@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    border-block-color: blue;
+    background-image:linear-gradient(rgba(5, 1, 1, 0.555),rgba(0,0,0,0.5)),url(Website-Background-Images-HD-Free-Download-Wallpaperxyz.com-36.jpg);
+    height: 100vh;
+    background-size: auto;
+    background-position: center;
+
+}
+
+.main-nav
+{
+    float: right;
+    padding-left: 450px;
+    list-style: none;
+    margin-top: 30px;
+    
+}
+
+.main-nav li
+{
+    display: inline-block;
+    
+    /* display: table-column-group; */
+
+}
+
+.main-nav li a
+{
+    
+   color: white;
+    padding: 10px 30px;
+    border: 1px solid bisque;
+    text-decoration: none;
+    /* margin-right: 13px; */
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid blue;
+    background-color: darkorange;
+    transition: all 0.5ms ease-in;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 140px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1600px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5ms ease-in;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
